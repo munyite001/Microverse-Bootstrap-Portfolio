@@ -13,3 +13,11 @@
   background-position: 100% 150%, 0% 85%;
   background-repeat: no-repeat;
 }
+
+#contact {
+  background-image: url(./images/illustration-1-contact-form-desktop.svg),
+    url(./images/illustration-2-contact-form-desktop.svg),
+    url(./images/contact-form-illustratoin-3-desktop.svg);
+  background-position: 0% 100%, 20% 97%, 100% 50%;
+  background-repeat: no-repeat;
+}

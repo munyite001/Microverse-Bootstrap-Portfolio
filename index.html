@@ -36,17 +36,23 @@
               >
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a class="nav-link active" aria-current="page" href="#work"
                       >Portfolio</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#about-me"
                       >About</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#contact"
                       >Contact</a
                     >
                   </li>
@@ -55,7 +61,7 @@
             </div>
           </nav>
         </header>
-        <div class="container-fluid px-5">
+        <div class="container-fluid px-5" style="margin-top: 150px">
           <h1 class="text-center">
             Hey there. I’m Alex. <br />I’m a software developer
           </h1>
@@ -103,7 +109,7 @@
         </div>
       </section>
       <!-- Work Section -->
-      <section class="my-5">
+      <section id="work" class="my-5">
         <h2 class="text-center">My Recent Works</h2>
         <div class="container mt-5">
           <div class="row d-flex justify-content-center gap-5 my-3">
@@ -358,7 +364,7 @@
             <a href="#" class="btn btn-success my-2">Get Resume</a>
           </div>
         </div>
-        <div class="container mt-5">
+        <div class="container my-5">
           <div class="row d-flex justify-content-center gap-5 my-3">
             <div
               class="card px-0"
@@ -498,7 +504,124 @@
           </div>
         </div>
       </section>
+      <section class="my-5">
+        <div
+          id="contact"
+          class="paddsection"
+          style="padding-top: 100px; padding-bottom: 100px"
+        >
+          <div class="container">
+            <div class="contact-block1">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="contact-contact">
+                    <h2 class="my-5 text-center">
+                      I'm always interested in hearing about new projects, so if
+                      you'd like to chat please get in touch.
+                    </h2>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <form
+                    action="forms/contact.php"
+                    method="post"
+                    role="form"
+                    class="php-email-form"
+                  >
+                    <div class="row gy-3">
+                      <div class="col-lg-6">
+                        <div class="form-group contact-block1">
+                          <input
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            id="name"
+                            placeholder="First Name"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="name"
+                            id="name"
+                            placeholder="Last Name"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="email"
+                            placeholder="Email address"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <textarea
+                            class="form-control"
+                            name="message"
+                            placeholder="Message"
+                            required=""
+                            style="height: 114px; resize: none"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success w-25 my-3 ms-2"
+                        >Get in touch</a
+                      >
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <hr />
+    <footer>
+      <div class="socials-media text-center">
+        <ul class="list-unstyled d-inline-flex">
+          <li class="mx-2">
+            <a href="https://twitter.com/Uz_Mnemonist" target="_blank"
+              ><img src="/images/twitter.svg" alt="Twitter"
+            /></a>
+          </li>
+          <li class="mx-2">
+            <a
+              href="http://linkedin.com/in/khusniddin-ismoilov-185575157"
+              target="_blank"
+              ><img src="/images/Linkedinicon.svg" alt="Linkedin"
+            /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#" target="_blank"
+              ><img src="/images/medium.svg" alt="Medium"
+            /></a>
+          </li>
+          <li class="mx-2">
+            <a href="https://github.com/KIsmoilov" target="_blank"
+              ><img src="/images/github.svg" alt="GitHub"
+            /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#" target="_blank"
+              ><img src="/images/angellist.svg" alt="Angel list"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

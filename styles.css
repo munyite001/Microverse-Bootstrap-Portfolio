@@ -6,3 +6,10 @@
   background-size: 100%;
   background-position: center;
 }
+
+#about-me {
+  background-image: url(./images/illustration-1-desktop.svg),
+    url(./images/illustration-2-desktop.svg);
+  background-position: 100% 150%, 0% 85%;
+  background-repeat: no-repeat;
+}
